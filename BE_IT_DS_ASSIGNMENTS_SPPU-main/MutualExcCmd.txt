@@ -1,0 +1,18 @@
+1st terminal
+javac Site.java
+java Site true localhost 5000 5001
+
+2nd terminal
+java Site false localhost 5001 5000
+
+
+
+my commands : 
+ifconfig
+
+T1:
+java Site 1 true 5000 10.0.2.15 5001
+
+T2:
+java Site 2 false 5001 10.0.2.15 5000
+
